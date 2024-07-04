@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger-king | Portofolio web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images.png">
+        <a href="#home">Home</a>
+        <a href="#our-profile">Our profile</a>
+        <a>Portofolio</a>
+        <a href="#masage-us">Masage us</a>
+    </header>
+    <div class="wrapper" id="home">
+        <h1>Hi! <span id="name"></span>, Wellcome to <span id="merk">Burger-King</span> portofolio website</h1>
+        <h3>This is a portofolio website of Burger-King company</h3>
+    </div>
+    <div class="banner-container">
+        <div class="banner-slide">
+            <img src="l1.jpg" alt="Image 1">
+        </div>
+        <div class="banner-slide">
+            <img src="l2.jpg" alt="Image 1">
+        </div>
+        <div class="banner-slide">
+            <img src="l3.jpg" alt="Image 1">
+        </div>
+        <div class="banner-slide">
+            <img src="l4.jpg" alt="Image 1">
+        </div>
+        <p> visi dan misi Burger King menekankan bahwa perusahaan tersebut adalah dan tetap menjadi yang terbaik di industri dan menjadi jaringan restoran cepat saji terbesar di dunia. <button>Kunjungi lainya</button></p>
+        
+    </div>
+
+    <h1>Our profile</h1>
+    <div class="pembungkus" id="our-profile">
+        <div class="summary">
+            <img src="images1.jpg">
+        </div>
+        <div class="summary">
+            <img src="images2.jpg">
+        </div>
+        <div class="summary">
+            <img src="images 3.png">
+        </div>
+
+        <div class="papan-informasi">
+            <div class="konten">
+                <p> Restoran cepat saji ini didirikan pertama kali pada tahun 1953 di Jacksonville, Florida dengan nama Insta-Burger King. Adapun perintisnya adalah Keith J. Kramer dan Matthew Burns, yang berusaha mengembangkannya dengan teknologi baru bernama "Insta-machines" dan "Insta-Broiler".
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate reiciendis laboriosam eum id recusandae eaque totam impedit laudantium similique, ipsum velit fugit laborum vitae ab saepe voluptates est unde excepturi!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime non totam accusantium vitae numquam recusandae cupiditate, adipisci necessitatibus quos libero. Veritatis dolorem doloribus minus corporis animi nobis repellat cumque distinctio?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid iure amet quo delectus enim ex voluptatem velit, earum in tenetur? Doloremque placeat ut, minus sed dolore in sapiente dolores?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="contoh">
+        <h3>Pendiri</h3>
+        <h3>Sejarah</h3>
+        <h3>Deskripsi</h3>
+    </div>
+    
+    <div class="ma" id="masage-us">
+        <h1>Message Us</h1>
+        <div class="na">
+            <table>
+                <tr>
+                    <td><label for="username">Username :</label></td>
+                    <td><input type="text" id="username" required></td>
+                </tr>
+                <tr>
+                    <td><label for="username">Tanggal lahir :</label></td>
+                    <td><input type="date" id="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Jenis kelamin :</label></td>
+                    <td><input type="radio" id="jenis-kelamin" required></td>
+                    <td><input type="radio" id="jenis-kelamin" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pesan">pesan :</label></td>
+                    <td><input type="text" id="pesan" required></td>
+                </tr>
+                <tr>
+                    <td rowspan="4" colspan="2">
+                        <button type="button" onclick="validate()">Submit</button>
+                    </td>
+                </tr>
+            </table>
+            <div class="result" id="result" style="height: 300px; width: 300px; border: 2px solid #000;"></div>
+        </div>
+    </div>
+    <footer>
+        <p>Created By Arya</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
